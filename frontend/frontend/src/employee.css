@@ -1,0 +1,814 @@
+
+.emp-con{
+  margin-top: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: Row;
+  align-items: center;
+  padding:20px;
+  margin-left: 500px;
+
+
+
+}
+.emp-con ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    gap:60px;
+    margin-bottom:10px;
+    font-size: larger;
+    font-weight: 500;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.emp-con ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.emp-con li:hover{
+    color:blue;
+    cursor: pointer;
+}
+.login{
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    text-align: center;       
+    padding-top: 10px;
+    margin-top: 0px;
+
+
+}
+.Name{
+    position: fixed;
+    font-weight:500;
+    left: 0;
+    color:black ;
+    font-style: italic;
+    top: 0;
+}
+.body2{
+    position:fixed;
+    bottom:0;
+    left:5px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    color:black;
+
+}
+.crt-conainer{
+    background-color: white;
+
+}
+.crt-btn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;              
+    width: 220px;              
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 20px;
+
+    background-color: #1f2e46;  
+    border-right: 1px solid #e5e7eb;
+
+    box-shadow: 2px 0 10px rgba(44, 100, 144, 0.707);
+    z-index: 1000;
+}
+.crt-btn button:hover{
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.crt-btn button{
+    padding:20px;
+    
+}
+.forms-con{
+    position: fixed;
+    top: 0;
+    left: 240px;              
+    right: 0;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    gap: 200px;
+
+    padding: 0 30px;
+
+    background-color: #f8fafc;
+    border-bottom: 1px solid #d1d5db;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    z-index: 10;
+
+}
+.forms-con button{
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.forms-con button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.show{
+    background-color: white;
+    overflow: hidden;
+    margin-top:5px;
+    margin-left:5px;
+    color:blue;
+
+}
+.show summary:hover{
+    cursor: pointer;
+}
+.fill{
+    margin-left: 265px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top:10px;
+    color: black;
+}
+.fill1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.fill1 input{
+    padding:8px 16px;
+    border-radius: 5px;
+}
+.fill1 p{
+    font-weight:600;
+    font-size: large;
+    color: black;
+
+}
+.fill button{
+    padding:8px 16px;
+    border:1px solid black;
+    border-radius: 8px;
+    max-width: 100px;
+    color:white;
+    margin-left: 500px;
+    background-color: rgb(75, 75, 231);
+    box-shadow: 0 8px 8px black;
+}
+.fill button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 255)
+}
+.document{
+    margin-left: 265px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding:40px;
+    margin-top: 65px;
+}
+.document .document1 .msg{
+    display:flex;
+    flex-direction: row;
+    margin-left:0px;
+    margin-top:0px;
+
+}
+
+.document1{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 40px;
+}
+.document .document1 .nm{
+    font-size: large;
+    font-weight: 500;
+    padding-left:8px;
+    padding-right:3px;
+}
+.btttt button{
+    position:fixed;
+    padding:8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(84, 84, 209);
+    box-shadow: 0 4px 4px black;
+    max-width:100px;
+    top: 400px;
+    left: 800px;
+    color:white;
+}
+.btttt button:hover{
+    background-color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+.consent{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 265px;
+    margin-top: 65px;
+}
+.consent input{
+    position:fixed;
+    cursor: pointer;
+    size: 15px;
+    left:290px;
+    top:165px
+}
+.consent button{
+    position:fixed;
+    padding:8px 16px;
+    left:500px;
+    top:250px;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    background-color: rgb(74, 74, 193);
+    box-shadow: 0 4px 4px black;
+}
+.consent button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.consent p{
+    margin-top:100px;
+    margin-left:50px;
+    font-weight: 600;
+}
+.status1{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.home{
+    background-color: white ;
+}
+.home h1{
+    color: black;
+    font-weight: bold;
+}
+.home h2{
+    color:black;
+    font-weight: bold;
+}
+.home p{
+    color:black;
+}
+.login2{
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    margin-left: 700px;
+    font-size: larger;
+    margin-top: 0px;
+}
+.Name2{
+    position:fixed;
+    font-weight: bold;
+    left: 0px;
+    color: black;
+    font-style: italic;
+    top: 5px;
+    font-size: small;
+}
+.profile-con {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;              
+    width: 220px;              
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 20px;
+
+    background-color: #1f2937;  
+    border-right: 1px solid #e5e7eb;
+
+    box-shadow: 2px 0 10px rgba(0,0,0,0.15);
+    z-index: 1000;
+}
+.profile-con button{
+    min-width:100px;
+    background-color: white;
+    color:black;
+    padding:10px;
+}
+.btnnn button{
+    background-color: aliceblue;
+
+}
+.btnnn button:hover{
+    background-color: gray;
+    cursor: pointer !important;
+}
+.profile-con button:hover{
+    cursor: pointer;
+    background-color: gray;
+
+}
+.opencreate{
+    display: flex;
+    gap:30px;
+    min-height: 60px;
+
+}
+.open-details{
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    align-items: center;
+    gap:80px;
+
+}
+.open-details h2{
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.open-docs{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap:30px;
+}
+.open-docs .open-docs1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position:fixed;
+    justify-content: space-between;
+    gap: 30px;
+    left: 300px;
+    margin-top:100px;
+    color: blacks
+}
+.open-docs .open-docs1 h2{
+    position:fixed;
+    top:90px;
+    left:800px;
+    bottom:20px;
+}
+
+.open-consen{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    gap:15px;
+    margin-left: 600px;
+    margin-top:80px;
+
+}
+.accept{
+    background-color: rgb(30, 149, 30);
+    color:white;
+    padding :8px 16px;
+    border:1px solid black;
+    border-radius: 10px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 14px
+}
+.reject{
+    background-color: rgb(129, 28, 28);
+    color:white;
+    padding:8px 16px;
+    border:1px solid black;
+    border-radius: 10px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 14px
+}
+.accept:hover{
+    cursor: pointer;
+    background-color: rgb(13, 241, 13) ;
+}
+.reject:hover{
+    cursor: pointer;
+    background-color: rgb(238, 10, 10);
+}
+.body1{
+    position:fixed;
+    min-height: 90px;
+    top:0;
+    width:100%;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 2px #ccc;
+}
+.body1 .jjj{
+    position: fixed;
+    max-width: 50px;
+    max-height: 50vh;
+    border-radius: 50px;
+    display:flex;
+    left:5px;
+    top:20px;
+    bottom:20px;
+}
+.body1 img:hover{
+    cursor: pointer;
+}
+.body3{
+    background-image: url("./assets//image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body10 img{
+    position: fixed;
+    max-width: 50px;
+    max-height: 50vh;
+    border-radius: 50px;
+    right:10px;
+    top:10px;
+    margin-left: 1480PX;
+}
+.body10 img:hover{
+    cursor: pointer;
+}
+.background {
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url("./assets/image9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    position:fixed;
+    left: 0;
+    right:0;
+    top:50px;
+    bottom:0;
+}
+.opencreate{
+    align-items: center;
+    position:fixed;
+    left: 400px;
+    padding-bottom: 30px;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.open-details{
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    position:fixed;
+    flex-direction: row;
+    top:150px;
+    left:350px;
+}
+.open-details h2{
+    position:fixed;
+    top:80px;
+    left:600px;
+}
+.open-docs{
+    display:flex;
+    flex-direction: row;
+}
+.open-docs1{
+    position:fixed;
+    left:800px;
+    top:95px;
+    flex-direction: column;
+}
+.open-docs1 h2{
+    position:fixed;
+    left:785px;
+    bottom:40px;
+    top: 55px;
+}
+.p-n h2{
+    margin-top: 80px;
+    margin-left: 600px;
+}
+.open-details{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.body3 {
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url("./assets/image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    position:fixed;
+    margin-left: 0px;
+}
+.home button{
+    border: none;
+    border-radius: 5px;
+    padding:8px 16px;
+    position: fixed;
+    right:3px;
+    top:5px;
+}
+.home button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.body1 .iii{
+    position: fixed;
+    max-width: 50px;
+    max-height: 50vh;
+    border-radius: 50px;
+    display:flex;
+    right:0px;
+    top:8px;
+    left:1400px;
+}
+.is-open {
+  position: fixed;
+  top: 80px;
+  right: 0px;
+  width: 250px;
+  height: 50vh;
+  background-color: white;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 8px 16px black;
+  border:none;
+  border-radius: 10px;
+}
+.is-open input{
+    padding:10px 20px;
+    margin-top:30px;
+    border:none;
+    border-radius: 5px;
+    margin-left:30px;
+}
+.firstname{
+    position:fixed;
+    color:black;
+    right:240px;
+    font-weight: 800;
+    top:30px;
+}
+.lastname{
+    position:fixed;
+    top:30px;
+    right:180px;
+    color:black;
+    font-weight: 800;
+}
+.forms-con img{
+    position:fixed;
+    right:10px;
+    border-radius: 50px;
+    max-height:45px;
+    max-width:45px;
+    box-shadow: 0 4px 4px black;
+}
+.forms-con img:hover{
+    cursor: pointer;
+}
+.document1 button{
+    border:1px black;
+    border-radius: 4px;
+    padding:8px 16px;
+    margin-top:15px;
+    cursor: pointer;
+}
+.document1 p{
+    color:black;
+    font-weight: 500;
+
+}
+.fill1 .s::placeholder{
+    color:red;
+}
+.crt-account{
+    position:fixed;
+    right:20px;
+    border:none;
+    border-radius: 10px;
+    min-height: 400px;
+    max-width: 500px;
+    top:80px;
+    background-color: #ccc;
+    box-shadow: 0 4px 4px black;
+}
+.crt-account input{
+    padding:8px 16px;
+    display: flex;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:5px;
+}
+.crt-account button{
+    position:fixed;
+    right:100px;
+    padding:8px 16px;
+    background-color: rgb(79, 79, 215);
+    border-radius:5px;
+    border:none;
+    box-shadow: 0 4px 4px black;
+    margin-top: 20px;
+    color:white;
+}
+.crt-account button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.crt-account .s1::placeholder{
+    color:red;
+}
+.top-bar{
+    min-height:60px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 2px gray;
+}
+.top-bar img{
+    border-radius:50px;
+    max-height: 50px;
+    max-width: 50px;
+    position:fixed;
+    right:5px;
+    box-shadow: 0 2px 2px black;
+}
+.top-bar img:hover{
+    cursor: pointer;
+}
+.boto{
+    position:fixed;
+    top:10px;
+    left:500px;
+    gap:20px;
+}
+.boto :first-child{
+    padding:8px 16px;
+    background-color:rgb(88, 184, 88);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    margin-right:20px;
+
+}
+.boto :first-child:hover{
+    padding:8px 16px;
+    background-color:rgb(16, 225, 16);
+    cursor: pointer;
+
+
+}
+.boto :last-child{
+    padding:8px 16px;
+    background-color:rgb(135, 57, 57);
+    color:white;
+    border: none;
+    border-radius: 4px;
+
+}
+.boto :last-child:hover{
+    padding:8px 16px;
+    background-color:rgb(201, 42, 45);
+    cursor: pointer;
+
+
+}
+.main{
+    position:fixed;
+    top:0;
+    min-height: 70px;
+    width:100%;
+    background-color: rgba(245, 245, 245, 0.678);
+    box-shadow: 0 2px 2px gray;
+
+
+}
+.main img {
+    border-radius: 50px;
+    max-height: 45px;
+    max-width: 45px;
+    position:fixed;
+    top:5px;
+    right:10px;
+    box-shadow: 0 2px 2px black;
+}
+.main img:hover{
+    cursor: pointer;
+}
+.hr-con ul{
+    text-align: center;
+    display: flex;
+    position:fixed;
+    top:10px;
+    left:600px;
+    padding-right: 10px;
+    gap:60px;
+    margin-bottom:10px;
+    font-size: larger;
+    font-weight: 700;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.hr-con ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.hr-con ul li a:hover{
+    cursor: pointer;
+    color:blue;
+}
+.hr-con ul li a:hover{
+    cursor: pointer;
+    color:blue;
+}
+.border p{
+    color:white;
+    position:fixed;
+    right:90px;
+
+
+}
+.border p:hover{
+    cursor: pointer;
+    color:blue;
+
+
+}
+.body10{
+    min-height:90px;
+    background-color: whitesmoke;
+    left:0;
+    width:100%;
+    box-shadow: 0 4px 4px black;
+    border-bottom: 2px solid gray;
+}
+.remember1{
+    position:fixed;
+    top:100px;
+    right:50px;
+    border:none;
+    border-radius: 5px;
+    min-height:300px;
+    display: flex;
+    min-width:280px;
+    background-color: white;
+    box-shadow: 0 4px 4px gray;
+}
+.remember input{
+    border:1px solid black;
+    margin-top:80px;
+    margin-left:40px;
+    padding:8px 16px;
+
+}
+.remember button{
+    position:fixed;
+    top:250px;
+    right:120px;
+    border:none;
+    border-radius: 4px;
+    padding:8px 25px;
+    background-color: rgb(71, 71, 225);
+    color:white;
+    box-shadow: 0 4px 4px gainsboro;
+}
+.remember button:hover{
+    background-color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+.remember img{
+    border-radius: 50px;
+    position:fixed;
+    top:10px;
+    right:10px;
+    max-height:40px;
+    max-width:40px;
+    box-shadow: 0 2px 2px black;
+}
+.remember img:hover{
+    cursor: pointer;
+}
