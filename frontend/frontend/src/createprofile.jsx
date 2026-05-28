@@ -17,7 +17,7 @@ function Createprofile() {
     setopenconsent(false);
 
     if (section === "create") setopencreate(true);
-    if (section === "docs") setopendocs(true);
+    if (section === "docs")   setopendocs(true);
     if (section === "consent") setopenconsent(true);
   }
   function Accept(){
