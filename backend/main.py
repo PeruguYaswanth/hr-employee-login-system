@@ -73,7 +73,6 @@ def comparision_data(data: usercomparision):
             "message": "Logged in employee successfully",
             "emp_id": str(emp["_id"])
         }
-
     raise HTTPException(status_code=400, detail="Invalid credentials")
 
 
@@ -175,7 +174,6 @@ def submit_profile(profile: UserProfile):
 @app.get("/view-profile")
 def view_profile():
     data = []
-
     for item in user_collections.find():
         data.append({
             "id": str(item["_id"]),
