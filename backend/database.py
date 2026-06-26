@@ -1,8 +1,6 @@
-import os
 from pymongo import MongoClient
 
-MONGODB_URL = os.environ.get("MONGODB_URL")
-client = MongoClient(MONGODB_URL)
+client = MongoClient("mongodb+srv://peruguyaswanth910_db_user:Yaswanth@cluster0.8sbtiqx.mongodb.net/?appName=Cluster0")
 
 db = client["hr_management"]
 
