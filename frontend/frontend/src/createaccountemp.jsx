@@ -42,7 +42,7 @@ function Createaccountemp(){
                     emppassword:emppassword,
 
                 }
-            const res=await axios.post(`${import.meta.env.VITE_API_URL}/submitting",payload);
+            const res=await axios.post(`${import.meta.env.VITE_API_URL}/submitting`,payload);
             alert(res.data.message)
             }
             catch(error){

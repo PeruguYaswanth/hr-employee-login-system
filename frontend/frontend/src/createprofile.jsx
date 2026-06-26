@@ -30,7 +30,7 @@ function Createprofile() {
   useEffect(() => {
     if (opendocs) {
       axios
-        .get(`${import.meta.env.VITE_API_URL}/documents")
+        .get(`${import.meta.env.VITE_API_URL}/documents`)
         .then(res => setDocs(res.data))
         .catch(err => console.error(err));
     }
@@ -39,7 +39,7 @@ function Createprofile() {
   useEffect(() => {
     if (opencreate) {
       axios
-        .get(`${import.meta.env.VITE_API_URL}/view-profile")
+        .get(`${import.meta.env.VITE_API_URL}/view-profile`)
         .then(res => setData(res.data))
         .catch(err => console.error(err));
     }
