@@ -1,14 +1,12 @@
+import os
 from pymongo import MongoClient
 
-MONGO_URL = "mongodb://localhost:27017"
+MONGODB_URL = os.environ.get("MONGODB_URL")
+client = MongoClient(MONGODB_URL)
 
-client = MongoClient(MONGO_URL)
+db = client["hr_management"]
 
-db = client["user_db"]
-db = client["company_db"]
-
-documents_collection= db["documents_collection"]
-user_collections=db["user"]
-user_collection = db["user_collection"]
-emp_collection=db["emp_collection"]
-
+user_collection = db["users"]
+emp_collection = db["employees"]
+user_collections = db["profiles"]
+documents_collection = db["documents"]
