@@ -162,7 +162,7 @@ async def view_document(doc_id: str):
         media_type=doc["content_type"]
     )
 
-
+# Employee CRUD endpoints - create, read, update, delete
 @app.post("/submit-profile")
 def submit_profile(profile: UserProfile):
     result = user_collections.insert_one(profile.dict())
