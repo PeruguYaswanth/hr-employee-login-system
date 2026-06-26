@@ -11,7 +11,7 @@ function Forgot(){
                 forgotpass:forgotpass,
 
             }
-            const res=await axios.post("${import.meta.env.VITE_API_URL}/comparisionpass",payload);
+            const res=await axios.post(`${import.meta.env.VITE_API_URL}/comparisionpass",payload);
             alert(res.data.password);
         }
         catch (error) {

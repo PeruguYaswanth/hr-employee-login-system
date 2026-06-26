@@ -51,7 +51,7 @@ function Show(){
 
             }
             const res = await axios.post(
-                "${import.meta.env.VITE_API_URL}/data",
+                `${import.meta.env.VITE_API_URL}/data",
                 payload
                 );
             alert("signup succesfully");
