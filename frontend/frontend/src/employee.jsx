@@ -14,7 +14,7 @@ function Employee(){
 
     }
     async function show_getting(){
-        const res=await axios.get('${import.meta.env.VITE_API_URL}/users')
+        const res=await axios.get(`${import.meta.env.VITE_API_URL}/users`)
         setresult(res.data.user);
     }
     return(
