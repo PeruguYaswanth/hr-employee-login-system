@@ -49,6 +49,7 @@ def inserting_data(user:Userdata):
     return{
         "id":str(result.inserted_id)
     }
+# JWT authentication for HR login and session management
 @app.post("/comparision")
 def comparision_data(data: usercomparision):
 
