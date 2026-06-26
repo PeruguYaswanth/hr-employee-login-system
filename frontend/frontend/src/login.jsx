@@ -36,7 +36,7 @@ function Login(){
                     password:PASSWORD,
                     identifier:identifier,
                 }
-                const res=await axios.post('http://localhost:8000/comparision',payload);
+                const res=await axios.post('${import.meta.env.VITE_API_URL}/comparision',payload);
                 if(res.data.message==="Logged in HR successfully"){
                     setshowcase(!showcase);
                 } 

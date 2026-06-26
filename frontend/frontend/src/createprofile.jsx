@@ -30,7 +30,7 @@ function Createprofile() {
   useEffect(() => {
     if (opendocs) {
       axios
-        .get("http://localhost:8000/documents")
+        .get("${import.meta.env.VITE_API_URL}/documents")
         .then(res => setDocs(res.data))
         .catch(err => console.error(err));
     }
@@ -39,7 +39,7 @@ function Createprofile() {
   useEffect(() => {
     if (opencreate) {
       axios
-        .get("http://localhost:8000/view-profile")
+        .get("${import.meta.env.VITE_API_URL}/view-profile")
         .then(res => setData(res.data))
         .catch(err => console.error(err));
     }
@@ -89,7 +89,7 @@ function Createprofile() {
                 <div key={doc.id}>
                   <p>{doc.filename}</p>
                   <a
-                    href={`http://localhost:8000/documents/${doc.id}`}
+                    href={`${import.meta.env.VITE_API_URL}/documents/${doc.id}`}
                     target="_blank"
                     rel="noreferrer"
                   >

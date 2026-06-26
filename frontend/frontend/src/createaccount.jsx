@@ -77,7 +77,7 @@
 
         try {
             const response = await axios.post(
-            "http://localhost:8000/upload",
+            "${import.meta.env.VITE_API_URL}/upload",
             formData
         );
 
@@ -119,7 +119,7 @@
                 };
 
                 const res = await axios.post(
-                    "http://localhost:8000/submit-profile",
+                    "${import.meta.env.VITE_API_URL}/submit-profile",
                     payload
                 );
 
